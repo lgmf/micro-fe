@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "rootDir": "./lib",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "build"
+  },
+  "include": [
+    "lib/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.*"
+  ]
+}
