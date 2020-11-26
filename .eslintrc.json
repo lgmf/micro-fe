@@ -6,12 +6,12 @@
     "jest/globals": true
   },
   "extends": [
-    "airbnb-base"
+    "plugin:vue/essential"
   ],
-  "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 12,
-    "sourceType": "module"
+    "sourceType": "module",
+    "parser": "babel-eslint"
   },
   "rules": {
     "import/prefer-default-export": "off"
@@ -22,7 +22,7 @@
   "overrides": [
     {
       "files": [
-        "**/lib/**/*.spec.js"
+        "**/src/**/*.spec.js"
       ],
       "env": {
         "jest": true
